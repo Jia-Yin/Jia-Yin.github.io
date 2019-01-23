@@ -1,18 +1,274 @@
 <!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2019 by Jia-Yin (http://jsbin.com/hocotum/13/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2019 by Jia-Yin (http://jsbin.com/hocotum/3/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
 <html>
+<head>
+<meta name="description" content="STEAM Poll System">
+<link rel="shortcut icon" sizes="16x16" href="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Extended" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Parisienne|Patrick+Hand&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="mine.css">
+<style id="jsbin-css">
+h1 {
+    background: blue;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.myrow {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.flabel {
+	background: blue;
+    width: 90px;
+    margin: 4px 8px 4px 8px;
+	font-size: 120%;
+}
+
+.alabel {
+	background: black;
+	color: white;
+    width: 90px;
+    margin: 4px 8px 4px 8px;
+	font-size: 120%;
+}
+
+.item {
+    width: 90px;
+    margin: 4px 8px 4px 8px;
+	font-size: 100%;
+}
+
+.item input[type=radio] {
+	margin-top:0px;
+    width: 70%;
+	height: 100%;
+}
+
+.litem {
+    width: 120px;
+    margin: 4px 8px 4px 8px;
+	font-size: 120%;
+}
+
+.go {
+    margin-top: 20px;
+    width: 200px;
+    background: blue;
+    color: white;
+	font-size: 120%;
+}
+
+</style>
+</head>
+<title>STEAM投票測試</title>
+
 <body>
 
-<button onClick="setInterval(myCounter, 1000)">Start counter!</button>
+<h1>STEAM 科技營成果展投票 V0.5</h1>
 
-<p id="demo">Click on the button above and I will count forever.</p>
 
-<script>
-var c = 0;
-function myCounter() {
-  document.getElementById("demo").innerHTML = ++c;
-}
-</script> 
+<div class="container">
+<form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSdf5Ur2EM9u4C2QxKBqZnhmk3Hn0IQsNBqi7SBMae4hdMYf0g/formResponse" target="_self" method="POST" id="mG61Hd">
+
+<br>
+	<input type="hidden" name="entry.2059638521" value="Project">
+	<!--- data-toggle="buttons" ---->
+	<div class="myrow">
+            <label  class="btn btn-primary alabel">
+                隊伍
+            </label>
+
+            <label  class="btn btn-primary flabel">
+            傑尼龜
+            </label>
+
+            <label  class="btn btn-primary flabel">
+            皮卡丘
+            </label>
+
+            <label  class="btn btn-primary flabel">
+            菊草葉
+            </label>
+
+            <label  class="btn btn-primary flabel">
+            小火龍
+            </label>
+
+            <label  class="btn btn-primary flabel">
+            卡比獸
+            </label>
+    </div>
+	
+	<div class="myrow">
+            <label  class="btn btn-danger flabel">
+                火箭隊
+            </label>
+
+        
+            <label  class="btn item btn-danger">
+                <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="火-傑">1</label>
+
+            <label  class="btn item btn-danger">
+                <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="火-皮">2
+            </label>
+
+            <label  class="btn item btn-danger">
+                <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="火-菊">3
+            </label>
+
+            <label  class="btn item btn-danger">
+                <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="火-龍">4
+            </label>
+
+            <label  class="btn item btn-danger">
+                <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="火-獸">5
+            </label>
+    </div>
+	
+	<div class="myrow">
+        <label  class="btn btn-warning flabel">
+            水艦隊
+        </label>
+
+        <label  class="btn item btn-warning">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="水-傑">6
+        </label>
+		
+		<label  class="btn item btn-warning">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="水-皮">7
+        </label>
+		
+		<label  class="btn item btn-warning">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="水-菊">8
+        </label>
+
+        <label  class="btn item btn-warning">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="水-龍">9
+        </label>
+
+        <label  class="btn item btn-warning">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="水-獸">10
+        </label>
+    </div>
+
+
+	<div class="myrow">
+        <label  class="btn btn-success flabel">
+            銀河隊
+        </label>
+
+        <label  class="btn item btn-success">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="銀-傑">11
+        </label>
+		
+		<label  class="btn item btn-success">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="銀-皮">12
+        </label>
+		
+		<label  class="btn item btn-success">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="銀-菊">13
+        </label>
+
+        <label  class="btn item btn-success">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="銀-龍">14
+        </label>
+
+        <label  class="btn item btn-success">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="銀-獸">15
+        </label>
+    </div>
+
+
+	<div class="myrow">
+        <label  class="btn btn-info flabel">
+            骷髏隊
+        </label>
+
+        <label  class="btn item btn-info">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="骷-傑">16
+        </label>
+		
+		<label  class="btn item btn-info">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="骷-皮">17
+        </label>
+		
+		<label  class="btn item btn-info">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="骷-菊">18
+        </label>
+
+        <label  class="btn item btn-info">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="骷-龍">19
+        </label>
+
+        <label  class="btn item btn-info">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="骷-獸">20
+        </label>
+    </div>
+
+	<div class="myrow">
+        <label  class="btn btn-primary flabel">
+            閃焰隊
+        </label>
+
+        <label  class="btn item btn-primary">
+            <input  type= "radio" name="entry.486627877" jsname="L9xHkb" value="閃-傑">21
+        </label>
+		
+		<label  class="btn item btn-primary">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="閃-皮">22
+        </label>
+		
+		<label  class="btn item btn-primary">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="閃-菊">23
+        </label>
+
+        <label  class="btn item btn-primary">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="閃-龍">24
+        </label>
+
+        <label  class="btn item btn-primary">
+            <input  type="radio" name="entry.486627877" jsname="L9xHkb" value="閃-獸">25
+        </label>
+	</div>
+	
+	<br>
+	
+	<div class="row">
+        <button type="submit" class="btn go center-block btn-primary">確定</button>
+    </div>
+</form>   
+</div>
 
 </body>
 </html>
-
